@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: rgb(124, 204, 124);
+}
+#edit{
+  color:yellow;
+  text-align: center;
+}
+.form-container {
+  width: 70%;
+  margin: auto;
+  background-color:rgb(185, 137, 173);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-container, .resume-container {
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  display: block;
+  margin-top: 10px;
+}
+#generated{
+  color:rgb(20, 20, 2);
+  text-align: center;
+}
+textarea {
+  width: 70%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.resume-container {
+  border: 1px solid #eaedf0;
+  padding: 10px;
+  background-color:rgb(202, 216, 79);
+}
+
+.resume-section {
+  margin-bottom: 10px;
+}
+
+.editable {
+  background-color: #fff;
+  border: 1px solid #fdfdfd;
+  padding: 5px;
+  min-height: 20px;
+  display: inline-block;
+  width: 100%;
+}

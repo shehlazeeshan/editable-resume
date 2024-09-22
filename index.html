@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDITABLE RESUME</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Resume Form -->
+  <div class="form-container">
+    <h2 id="edit"><u>EDITABLE RESUME</u></h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" />
+    <br />
+    <label for="contact">Contact:</label>
+    <input type="text" id="contact" />
+    <br />
+    <label for="education">Education:</label>
+    <textarea id="education"></textarea>
+    <br />
+    <label for="skills" id="skill">Skills:</label>
+    <input type="text" id="skills" />
+    <br />
+    <label for="experience">Experience:</label>
+    <textarea id="experience"></textarea>
+    <br />
+    <button id="generateBtn">GENERATE RESUME</button>
+    <a href="mailto:?subject=Check out my resume&body=Here is the link to my resume: YOUR_RESUME_URL">Share</a>
+  </div>
+</div>
+
+  <!-- Generated Resume -->
+  <div class="resume-container">
+    <h2 id="generated"><u>GENERATED RESUME</u></h2>
+    <div class="resume-section">
+      <strong>Name: </strong><span id="nameDisplay" class="editable" contenteditable="true"></span>
+    </div>
+    <div class="resume-section">
+      <strong>Contact: </strong><span id="contactDisplay" class="editable" contenteditable="true"></span>
+    </div>
+    <div class="resume-section">
+      <strong>Education: </strong><span id="educationDisplay" class="editable" contenteditable="true"></span>
+    </div>
+    <div class="resume-section">
+      <strong>Skills: </strong><span id="skillsDisplay" class="editable" contenteditable="true"></span>
+    </div>
+    <div class="resume-section">
+      <strong>Experience: </strong><span id="experienceDisplay" class="editable" contenteditable="true"></span>
+    </div>
+
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
